@@ -2,15 +2,44 @@
 # uncomment the urls if you wish to display them, and add your own URL
 
 # jazznotes.io
-- project: jazznotes.io
-  role: Founder & Primary Developer
-  duration: 2012 &mdash; Present
+- project: 모띠클 (Motticle)
+  role: 개인 프로젝트
+  duration: 2023.12 &mdash; 2024.03
   # url: "#"
-  description: Jazz Notes is an open source node/ember app that helps you keep track of your music compositions and new ideas.
+  description: 여기저기 파편화 되어 분류/관리가 어려웠던 여러 타입의 아티클들을 태그 기반으로 관리해주고 유저와 공유하는 서비스
+  stack: Java, SpringBoot, MySQL, JPA, QueryDSL, Redis, AWS, Docker
+  tasks:
+    - 노션을 이용한 API 설계(명세)와 Spring RestDocs를 활용하여 테스트 기반의 API 문서화
+    - 가성비 있는 단위 테스트를 진행하여 견고한 서비스 형성 및 코드 품질 향상
+    - 서드파티 시스템과의 연동을 위한 웹훅, API 서버 개발
+    - 단순 API 설계를 넘어 HTML, CSS, JS를 활용한 화면 구현을 통해 완성도 높은 프로젝트 서비스화 달성
+    - JWT + OAuth2 소셜 로그인 구현. 카카오톡 소셜 로그인 구현으로 간편한 서비스 이용 환경 제공
+    - 동기적으로 진행되었던 HTML 메타 데이터 크롤링 과정에 Stream, parallelStream, CompletableFuture등을 단계적으로 활용한 비동기적 데이터 처리로 지연 시간 개선 (8.06s → 1.25s, 85% 개선)
+    - 비동기적 데이터 처리에 Caffein Cache를 도입하여 지연 시간 최소화 (최종 8.06s → 397ms로 95.08% 개선)
+    - 회원 인증 과정에서 email 컬럼에 인덱스 적용으로 Index Only Scan 유도하여 성능 향상 (평균80ms → 20~30ms, 70% 개선)
+    - UI를 통해 단시간 많은 요청을 보낼 수 있는 기능에 Bucket4j를 통한 처리율 제한을 걸어 서버 부하를 방지
+    - Redis Pub/Sub 기반 SSE 실시간 알림 구현
+    - 비동기 이벤트 및 트랜잭션 전파 레벨 처리를 통한 알림 서비스 개선
+    - CI/CD 파이프라인 구축 및 배포 자동화
+    #  tasks:
+    #    - 노션을 이용한 API 설계(명세)와 Spring RestDocs를 활용하여 테스트 기반의 API 문서화
+    #    - 가성비 있는 단위 테스트를 진행하여 견고한 서비스 형성 및 코드 품질 향상
+#    - 단순 API 설계를 넘어 HTML, CSS, JS를 활용한 화면 구현을 통해 완성도 높은 프로젝트 서비스화 달성
+#    - JWT + OAuth2 소셜 로그인 구현. 카카오톡 소셜 로그인 구현으로 간편한 서비스 이용 환경 제공
+#    - 동기적으로 진행되었던 HTML 메타 데이터 크롤링 과정에 Stream, parallelStream, CompletableFuture등을 단계적으로 활용한 비동기적 데이터 처리로 지연 시간 개선 (8.06s → 1.25s, 85% 개선)
+#    - 비동기적 데이터 처리에 Caffein Cache를 도입하여 지연 시간 최소화 (최종 8.06s → 397ms로 95.08% 개선)
+#    - '회원 인증' 과정에서 email 컬럼에 인덱스 적용으로 Index Only Scan 유도하여 성능 향상 (평균80ms → 20~30ms, 70% 개선)
+#    - UI를 통해 단시간 많은 요청을 보낼 수 있는 기능에 Bucket4j를 통한 처리율 제한을 걸어 서버 부하를 방지
+#    - Redis Pub/Sub 기반 SSE 실시간 알림 구현
+#    - 비동기 이벤트 및 트랜잭션 전파 레벨 처리를 통한 알림 서비스 개선
+#    - CI/CD 파이프라인 구축 및 배포 자동화
 
-# Springfield Community Outreach Group
-- project: Springfield Community Outreach Group
-  role: Co-Founder & Organizer
-  duration: 2007 &mdash; Present
-  # url: "#"
-  description: SCOG is a local monthly meetup in Springfield where we share opportunities to volunteer in the community and organize support for families and neighborhoods in need of assistance that the community can provide.
+
+#- project: 토스 내 SaaS, On-premise 기반의 서드파티 시스템 연동
+#  duration: 2020.5 &mdash; 현재
+#  description:
+#  stack: Django, Django Rest Framework, Python, K8S
+#  tasks:
+#    - workday, okta, google 전반의 인사 정보 프로비저닝 (workday -> toss -> okta -> slack, google)
+#    - 사용자 입력 데이터를 정의된 내부 프로세스로 관리하고 결과 데이터를 SAP 시스템과 연동 (RFC, http api)
+#    - 서드파티 시스템과의 연동을 위한 웹훅, API 서버 개발
