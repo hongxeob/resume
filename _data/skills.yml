@@ -1,12 +1,16 @@
 # Skills
 # Organizational leadership
-- skill: Organizational leadership
-  description: I have several years of experience leading organziations from community groups to business departments. From public speaking, to mentoring, to coordination of people and events, I can lead in any context.
+- skill: Backend Development
+  description: Java, Kotlin, Spring Boot, Spring MVC, Spring Data JPA
 
-# Communications strategy
-- skill: Communications strategy
-  description: Content and marketing strategy,
+- skill: Database & ORM
+  description: MySQL, Redis, MongoDB, JPA, QueryDSL
 
-# Digital content development and creation
-- skill: Digital content development and creation
-  description: Copy writing, graphic design, web design, front-end web development, print design
+- skill: Testing
+  description: JUnit5, Mockito, Spring RestDocs
+
+- skill: DevOps
+  description: AWS, Docker, Github Actions, Nginx
+
+- skill: Build & Tools
+  description: Gradle, Git

@@ -4,7 +4,7 @@
 # jazznotes.io
 - project: 모띠클 (Motticle)
   role: 개인 프로젝트
-  duration: 2023.12 &mdash; 2024.03
+  duration: 2023.12 &mdash; 2024.03 | 개인 프로젝트
   # url: "#"
   description: 여기저기 파편화 되어 분류/관리가 어려웠던 여러 타입의 아티클들을 태그 기반으로 관리해주고 유저와 공유하는 서비스
   stack: Java, SpringBoot, MySQL, JPA, QueryDSL, Redis, AWS, Docker
@@ -21,25 +21,34 @@
     - Redis Pub/Sub 기반 SSE 실시간 알림 구현
     - 비동기 이벤트 및 트랜잭션 전파 레벨 처리를 통한 알림 서비스 개선
     - CI/CD 파이프라인 구축 및 배포 자동화
-    #  tasks:
-    #    - 노션을 이용한 API 설계(명세)와 Spring RestDocs를 활용하여 테스트 기반의 API 문서화
-    #    - 가성비 있는 단위 테스트를 진행하여 견고한 서비스 형성 및 코드 품질 향상
-#    - 단순 API 설계를 넘어 HTML, CSS, JS를 활용한 화면 구현을 통해 완성도 높은 프로젝트 서비스화 달성
-#    - JWT + OAuth2 소셜 로그인 구현. 카카오톡 소셜 로그인 구현으로 간편한 서비스 이용 환경 제공
-#    - 동기적으로 진행되었던 HTML 메타 데이터 크롤링 과정에 Stream, parallelStream, CompletableFuture등을 단계적으로 활용한 비동기적 데이터 처리로 지연 시간 개선 (8.06s → 1.25s, 85% 개선)
-#    - 비동기적 데이터 처리에 Caffein Cache를 도입하여 지연 시간 최소화 (최종 8.06s → 397ms로 95.08% 개선)
-#    - '회원 인증' 과정에서 email 컬럼에 인덱스 적용으로 Index Only Scan 유도하여 성능 향상 (평균80ms → 20~30ms, 70% 개선)
-#    - UI를 통해 단시간 많은 요청을 보낼 수 있는 기능에 Bucket4j를 통한 처리율 제한을 걸어 서버 부하를 방지
-#    - Redis Pub/Sub 기반 SSE 실시간 알림 구현
-#    - 비동기 이벤트 및 트랜잭션 전파 레벨 처리를 통한 알림 서비스 개선
-#    - CI/CD 파이프라인 구축 및 배포 자동화
 
+- project: 나를 위한 네이버 예약 취소 알리미
+  duration: 2023.08 &mdash; 2023.08 | 개인 프로젝트
+  description: 이용하던 미용실의 네이버 예약 시스템에 피로함을 느껴 만든 예약 취켓팅 알리미 서비스
+  stack: Java, SpringBoot, OpenFeign, TelegramBots
+  tasks:
+    - 24시간의 Due Date를 가진 자체 해커톤을 통해 단기간에 서비스를 개발
+    - 네이버 예약 API의 응답 데이터를 개발자 도구와 FeignClient를 이용하여 분석하고, 이를 통해 예약 가능 여부를 판단
+    - 기존 CLI가 아닌 텔레그램 통해 사용자가 간편하게 정보 입력 및 예약 여부 확인을 할 수 있도록 구현
+    - 사용자가 수동으로 예약 여부를 확인할 필요 없이, 주기적으로 예약 여부를 판단하여 자동으로 처리
 
-#- project: 토스 내 SaaS, On-premise 기반의 서드파티 시스템 연동
-#  duration: 2020.5 &mdash; 현재
-#  description:
-#  stack: Django, Django Rest Framework, Python, K8S
-#  tasks:
-#    - workday, okta, google 전반의 인사 정보 프로비저닝 (workday -> toss -> okta -> slack, google)
-#    - 사용자 입력 데이터를 정의된 내부 프로세스로 관리하고 결과 데이터를 SAP 시스템과 연동 (RFC, http api)
-#    - 서드파티 시스템과의 연동을 위한 웹훅, API 서버 개발
+- project: 딜라이트 (Dealight)
+  duration: 2023.10 &mdash; 2023.11 | 팀 프로젝트 BE-5명
+  description: 전문가 매칭 서비스 ‘숨고’ 클론 코딩
+  stack: Java, Spring Boot, MySQL, Redis, JPA, QueryDSL, AWS, NginX, Docker, ElasticSearch
+  tasks:
+    - 백엔드 팀장으로서 일간/주간 스크럼 리드 및 전반적인 일정 조율
+    - 팀내 테스트 코드 문화 확립, 가성비 좋은 테스트 코드를 통해 동작 방식 문서화의 중요성과 견고한 서비스, 코드 품질 향상을 위해 테스트 코드 문화 전파
+    - 거리 기반 업체 노출/검색 기능 구현
+    - 검색 성능 최적화, MySQL Like문 → Full Text → QueryDSL/NoOffset 순차 적용으로 지연 시간 82% 개선 (290ms → 52ms) 및 ElasticSearch 도입 및 형태소 분석기 활용으로 검색 고도화 경험
+
+- project: 고수 캐쳐 (Gosu Catcher)
+  duration: 2023.08 &mdash; 2023.09 | 팀 프로젝트 FE-4명 / BE-5명
+  description: 동네 주변 업체가 등록한 당일 폐기 예정 식료품을 찾아 저렴하게 판매/구매하는 서비스
+  stack: Java, Spring Boot, MySQL, Redis, JPA, QueryDSL, AWS
+  tasks:
+    - 프로젝트 리더로서 전반적인 일정 조율 및 스크럼 리드
+    - 서버, DB뿐만 아니라 전체 서비스 UI를 구성하고 사용자의 서비스 이용 형태를 이해하여 적절한 API를 개발한 경험
+    - NoSQL DBMS Redis를 사용하여 서비스의 최근 및 인기 검색어를 구현
+    - 성능 최적화를 위한 N+1 문제에 FETCH JOIN 사용
+    - 사용자간 양방향 채팅을 위해 웹소켓과 Stomp 프로토콜 도입
