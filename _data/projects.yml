@@ -5,7 +5,7 @@
 - project: 모띠클 (Motticle)
   role: 개인 프로젝트
   duration: 2023.12 &mdash; 2024.03 | 개인 프로젝트
-  # url: "#"
+  github_url: https://github.com/hongxeob/motticle
   description: 여기저기 파편화 되어 분류/관리가 어려웠던 여러 타입의 아티클들을 태그 기반으로 관리해주고 유저와 공유하는 서비스
   stack: Java, SpringBoot, MySQL, JPA, QueryDSL, Redis, AWS, Docker
   tasks:
@@ -25,6 +25,7 @@
 - project: 나를 위한 네이버 예약 취소 알리미
   duration: 2023.08 &mdash; 2023.08 | 개인 프로젝트
   description: 이용하던 미용실의 네이버 예약 시스템에 피로함을 느껴 만든 예약 취켓팅 알리미 서비스
+  github_url: https://github.com/hongxeob/TimeGuard_Alert
   stack: Java, SpringBoot, OpenFeign, TelegramBots
   tasks:
     - 24시간의 Due Date를 가진 자체 해커톤을 통해 단기간에 서비스를 개발
@@ -35,6 +36,7 @@
 - project: 딜라이트 (Dealight)
   duration: 2023.10 &mdash; 2023.11 | 팀 프로젝트 BE-5명
   description: 전문가 매칭 서비스 ‘숨고’ 클론 코딩
+  github_url: https://github.com/Team-PalPalHae-Dealight/Team-PalPalHae-Dealight-BE
   stack: Java, Spring Boot, MySQL, Redis, JPA, QueryDSL, AWS, NginX, Docker, ElasticSearch
   tasks:
     - 백엔드 팀장으로서 일간/주간 스크럼 리드 및 전반적인 일정 조율
@@ -45,6 +47,7 @@
 - project: 고수 캐쳐 (Gosu Catcher)
   duration: 2023.08 &mdash; 2023.09 | 팀 프로젝트 FE-4명 / BE-5명
   description: 동네 주변 업체가 등록한 당일 폐기 예정 식료품을 찾아 저렴하게 판매/구매하는 서비스
+  github_url: https://github.com/prgrms-be-devcourse/BE-04-GosuCatcher
   stack: Java, Spring Boot, MySQL, Redis, JPA, QueryDSL, AWS
   tasks:
     - 프로젝트 리더로서 전반적인 일정 조율 및 스크럼 리드
