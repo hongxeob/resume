@@ -17,13 +17,13 @@ resume_title:                   "Software Engineer"
 resume_contact_email:           "hongggg66772291@gmail.com"
 
 # the next two items are used for schema itemprops in _layouts/resume.html
-resume_contact_telephone:       "555-7334"
-resume_contact_address:         "742 Evergreen Terrace, Springfield"
+resume_contact_telephone:       "010-6677-2291"
+resume_contact_address:         ""
 
-resume_header_contact_info:     "742 Evergreen Terrace, Springfield • 555-7334 • lisasimpson@youremailaddress.com"
+resume_header_contact_info:     "010-6677-2291 • hongggg66772291@gmail.com"
 display_header_contact_info:    "false"
 
-resume_header_intro: "<p>누구나 편리하고, 단 한명에게라도 이로울 수 있는 서비스를 만들기위해 노력하고 있습니다.<br> 또 항상 낮은 Latency를 유지하기 위해 노력하고 연구하는 것을 즐깁니다.<br> 시스템에서 발생하는 지연을 최소화함으로써 사용자 경험을 향상시키고자 끊임없이 노력하고 그 노력을 즐기고 있습니다.</p>"
+resume_header_intro: "<p>안녕하세요. 1년차 주니어 개발자 이홍섭입니다.<br><br>저는 물류/운송 도메인에서 1년간 <strong>주문(OMS)/물류(WMS)/운송(TMS)</strong> 관리를 통합한 제3자 물류(3PL) 시스템을 구축하며 다양한 도전을 이어왔습니다.<br>특히 콜드체인 의약품 배송 시스템에서 기존에 수기로 진행하던 배송 작업을 시스템화하였고, <strong>배차 최적화</strong>와 <strong>재고 관리</strong>에 집중했으며, 여러 형태의 주문과 재고 관리 요구사항에 맞춰 확장 가능한 시스템을 설계했습니다.<br><br>새로운 기술과 지식을 습득하고 공유하는 것에 큰 즐거움을 느낍니다. 팀 내 기술 발표 스터디에 적극적으로 참여하고, 기존 Node.js 진영 동료들을 위해 사내 Spring 관련 이슈들을 정리하여 공유하는 등 함께 발전하는 문화를 만들어가고 있습니다.</p>"
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
@@ -38,7 +38,7 @@ resume_section_education:       true
 resume_section_projects:        true
 resume_section_skills:          true
 resume_section_recognition:     true
-resume_section_links:           true
+resume_section_links:           false
 resume_section_associations:    true
 # resume_section_interests:       true
 

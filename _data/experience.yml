@@ -1,19 +1,27 @@
 # Jobs
-# VP of Global Communications
-- company: 위밋 모빌리티
-  position: 백엔드 엔지니어
+# 위밋 모빌리티
+- company: 위밋 모빌리티 (WeMeet Mobility)
+  position: "백엔드 엔지니어 | 플랫폼 팀"
   duration: 2024년 4월 &mdash; 현재
-  summary: Platform Team에서 WMS/OMS/TMS를 통한 3PL 통합 시스템 구축 서비스를 개발하고 있습니다.
-
-## Director of Digital Stratgy
-#- company: United Nations Human Rights Council
-#  position: Director of Digital Strategy
-#  duration:  Jun, 2010 &mdash; Sept, 2013
-#  summary: If your stint was shorter, feel free to be brief and just call out the most meaningful points of your role. Be concise, and be meaninful. The person reading just needs enough to want to talk to you more about your experience.
-#
-#
-## Communications Coordinator
-#- company: Springfield Women & Children's Center
-#  position: Communications Coordinator
-#  duration:   Jun, 2008  &mdash; May, 2010
-#  summary: Led communication efforts across digital and traditional media channels for marketing and public relations, internal communication strategies, and coordinated support programs for the recipients of the center's services.
+  summary: |
+    위밋 모빌리티는 제주도내 당일 배송 서비스인 '<a href="https://www.jejuonul.com/">제주오늘</a>'과 단순한 배차 시스템에서 벗어나 최적의 동선 관리, 다중 배차까지 가능하게 해주는 SaaS 솔루션 '<a href="https://www.roouty.com/">루티(ROOUTY)</a>'를 운영하고 있습니다. 또한 위 기술들을 기반으로 여러 DX 사업을 진행하고 있습니다.<br></br>
+    
+    <strong>주문 | 재고 | 운송 (3PL) 통합 관리 시스템 백엔드 개발</strong> <br>
+      - 주문·재고 관리·운송의 과정을 효율적으로 관리하기 위한 제3자물류(3PL) 통합 시스템의 DB, API 설계 및 개선 <br>
+      - 실제 현장의 사용자와 운영팀의 니즈를 적극 반영하여 실질적인 문제 해결에 집중<br></br>
+    
+    <strong>제주오늘 서비스 마이그레이션 및 개발</strong><br>
+    
+    - 제주 지역 특성상 택배 배송이 길어지는 문제를 해소하고자 당일 배송이 가능한 서비스 개발
+    - 기존 Node.js 기반 서비스의 Spring 전환 작업 참여<br></br>
+    
+    <strong>개발 생산성 향상 및 코드 품질 개선</strong><br>
+    - AOP와 Dynamic Proxy 기반 N+1 디텍터 개발로 팀 전체의 JPA 활용도 개선 <i><a href="https://hongseob.tistory.com/109">(자세히)</a></i><br>
+    - 테스트 코드 작성을 통해 잦은 기획 변경에 유연하게 대응<br></br>
+    
+    <strong>지식 공유 및 협업 문화 조성</strong><br>
+    - 백엔드 팀 정기 기술 발표 스터디를 통한 지식 공유 및 학습 문화 형성<br>
+      - 팀원들의 다양한 개발 성향과 코드 리뷰 기준을 일원화하고 사내 코드 품질의 일관성을 확보하기 위해 '클린 코드 with TDD' 스터디를 주도적으로 기획 및 진행 <i><a href="https://github.com/gonza-st">(Github)</a></i><br>
+    - Node.js 개발자들을 위한 Spring, JPA, 트랜잭션, DDD 관련 이슈 정리 및 공유 <i><a href="https://github.com/hongxeob/develop-issues/issues?q=is%3Aissue+is%3Aclosed">(자세히)</a></i><br></br>
+    
+    실제 현장에서의 사용자와 운영·관리팀의 니즈를 적극 반영하여, "<strong>사용자와 운영자가 겪는 불편함</strong>"을 최대한 해결하는 것을 중점으로 진행하였습니다.

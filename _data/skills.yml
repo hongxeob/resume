@@ -1,16 +1,20 @@
 # Skills
-# Organizational leadership
-- skill: Backend Development
+# Backend
+- skill: Backend
   description: Java, Kotlin, Spring Boot, Spring MVC, Spring Data JPA
 
+# Database
 - skill: Database & ORM
   description: MySQL, Redis, MongoDB, JPA, QueryDSL
 
+# Testing
 - skill: Testing
   description: JUnit5, Mockito, Spring RestDocs
 
+# DevOps
 - skill: DevOps
-  description: AWS, Docker, Github Actions, Nginx
+  description: AWS, Github Actions, Docker, Nginx
 
+# Build & Tools
 - skill: Build & Tools
-  description: Gradle, Git
+  description: Gradle, Git, IntelliJ IDEA
